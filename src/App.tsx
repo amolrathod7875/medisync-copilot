@@ -7,6 +7,7 @@ import { AppLayout } from "@/components/layout/AppLayout";
 import Dashboard from "./pages/Dashboard";
 import Upload from "./pages/Upload";
 import Documents from "./pages/Documents";
+import Settings from "./pages/Settings";
 import Summaries from "./pages/Summaries";
 import NotFound from "./pages/NotFound";
 
@@ -24,6 +25,7 @@ const App = () => (
             <Route path="/upload" element={<Upload />} />
             <Route path="/documents" element={<Documents />} />
             <Route path="/summaries" element={<Summaries />} />
+            <Route path="/settings" element={<Settings />} />
           </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>
